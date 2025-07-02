@@ -3,7 +3,7 @@
 :auth: Nathan T. Stevens
 :email: nts5045@psu.edu | ntstevens@wisc.edu
 :purpose: Methods for converting SmartSolo DigiSolo.LOG files into time-indexed, tabuldated data
-
+:license: CC 4.0 BY
 Basic Use: df = parse_blocks('DigiSolo.LOG')
 Produces a pandas.DataFrame with a DatetimeIndex from target DigiSolo.LOG in the current working directory
 

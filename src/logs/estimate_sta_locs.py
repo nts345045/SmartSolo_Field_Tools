@@ -3,7 +3,7 @@
 :auth: Nathan T. Stevens
 :email: nts5045@psu.edu | ntstevens@wisc.edu
 :purpose: Take parsed DigiSolo.LOG data and use it to estimate station locations with bivariate statistical estimators
-
+:license: CC 4.0 BY
 scikit-learn implementation of DBSCAN from: https://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html#sphx-glr-auto-examples-cluster-plot-dbscan-py
 """
 
