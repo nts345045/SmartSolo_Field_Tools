@@ -14,7 +14,7 @@ os.makedirs(str(WB_DIR), exist_ok=True)
 # Initialize Wavebank
 WBANK = WaveBank(base_path=WB_DIR,
                  path_structure='{network}/{station}',
-                 name_structure='{nslc}_{starttime}.mseed')
+                 name_structure='{seedid}.{time}.mseed')
 
 # Get list of waveforms
 wf_list = glob.glob(str(WF_DIR/'*.mseed'))
