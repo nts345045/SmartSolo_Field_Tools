@@ -6,3 +6,4 @@ scikit-learn
 pyrocko
 pyproj
 tqdm
+seisbench
